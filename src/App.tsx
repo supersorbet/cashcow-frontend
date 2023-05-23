@@ -22,12 +22,13 @@ const Stakes = lazy(() => import('./views/Stakes'))
 const Pools = lazy(() => import('./views/Pools'))
 // const Ifos = lazy(() => import('./views/Ifos'))
 const NotFound = lazy(() => import('./views/NotFound'))
-const Blindbox = lazy(() => import('./views/Blindbox'))
+/* const Blindbox = lazy(() => import('./views/Blindbox'))
 const BlindboxDetail = lazy(() => import('./views/Blindbox/BlindboxDetail'))
 const NftMarket = lazy(() => import('./views/NftMarket'))
 const NftMarketDetail = lazy(() => import('./views/NftMarket/NftMarketDetail'))
 const MyNfts = lazy(() => import('./views/MyNfts'))
 const MyNftsDetail = lazy(() => import('./views/MyNfts/MyNftsDeatail'))
+*/
 // This config is required for number formating
 BigNumber.config({
   EXPONENTIAL_AT: 1000,
@@ -79,7 +80,7 @@ const App: React.FC = () => {
             <Route path="/pools">
               <Pools />
             </Route>
-            <Route exact path="/blind-box">
+          {/*  <Route exact path="/blind-box">
               <Blindbox />
             </Route>
             <Route path="/blind-box/:index">
@@ -88,15 +89,15 @@ const App: React.FC = () => {
             <Route exact path="/nft-market">
               <NftMarket />
             </Route>
-            <Route path="/nft-market/:itemId">
+          {/*  <Route path="/nft-market/:itemId">
               <NftMarketDetail />
-            </Route>
+      </Route> 
             <Route exact path="/MyNfts">
               <MyNfts />
             </Route>
             <Route path="/MyNfts/:myTokenId">
               <MyNftsDetail />
-            </Route>
+      </Route> */}
             {/* <Route path="/ifo"> */}
             {/*  <Ifos /> */}
             {/* </Route> */}

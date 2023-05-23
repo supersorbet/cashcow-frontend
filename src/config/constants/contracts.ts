@@ -1,11 +1,13 @@
 export default {
   cake: {
     56: '0xe5bd6C5b1c2Df8f499847a545838C09E45f4A262', // Milk address here
-    97: '0x3eFA66aB2b1690e9BE8e82784EDfF2cF2dc150e0', // Milk address here
+    97: '0x3eFA66aB2b1690e9BE8e82784EDfF2cF2dc150e0',
+    1: '', // Milk address here
   },
   masterChef: {
     56: '0x94098E24FCf4701237CF58ef2A222C1cF5003c86', // COW MasterChef address here
-    97: '0xB11C302675FD4a0bD725ecB7e0c3b9F6a3caEa8b', // COW MasterChef address here
+    97: '0xB11C302675FD4a0bD725ecB7e0c3b9F6a3caEa8b',
+    1: '', // COW MasterChef address here
   },
   lottery: {
     56: '',

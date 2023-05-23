@@ -9,6 +9,7 @@ const pools: PoolConfig[] = [
     contractAddress: {
       97: '0xea5f97a28f0263fb1cb3d246727e1a1459373dbe',
       56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+      1: '',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://cashcow.finance/',
@@ -27,6 +28,7 @@ const pools: PoolConfig[] = [
     contractAddress: {
       97: '0xea5f97a28f0263fb1cb3d246727e1a1459373dbe',
       56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+      1: ','
     },
     poolCategory: PoolCategory.CORE,
     projectLink: 'https://cashcow.finance/',
